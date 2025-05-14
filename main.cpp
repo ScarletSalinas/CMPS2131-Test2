@@ -16,7 +16,7 @@ int main() {
     }
 
     // Display final hash table state
-    cout << "\nFinal Hash Table:";
+    cout << "\nFinal Hash Table:\n";
     ht.display();
 
     return 0;
