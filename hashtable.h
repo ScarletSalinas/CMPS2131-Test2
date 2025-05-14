@@ -17,7 +17,7 @@ public:
     // Hash function (Division Method)
     int hash(int key);
 
-    // Insert key with collision resolution (Linear Probing)
+    // Insert key with collision resolution
     void insert(int key);
 
     // Display the hash table contents
