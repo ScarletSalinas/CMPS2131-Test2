@@ -51,6 +51,5 @@ Slot 10: 110
 [Watch demo here]() 
 [View Slides here]() 
 
-
 ## References
   - LLM: DeepSeek, for tutoring, learning necessary concepts, and for guidance when needed.
