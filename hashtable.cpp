@@ -18,7 +18,7 @@ void HashTable::insert(int key) {
         table[index] = key;
         cout << "Inserted " << key << " at slot " << index << endl;
     } else {
-        cout << "Collision at slot " << index << " for key " << key << " (Not resolved!)\n";
+        cerr  << "Collision at slot " << index << " for key " << key << " (Not resolved!)\n";
     }
 }
 
