@@ -6,11 +6,12 @@
 
 using namespace std;
 
-#define TABLE_SIZE 10 // Size of the hash table
+#define TABLE_SIZE 11 // Size of the hash table
 
 class HashTable {
 private:
-    vector<int> table; // Vector to store keys (-1 = empty slot)
+    vector<int> table; // Vector to store keys
+    int size = 0; // Track number of elements 
 
 public:
     // Constructor
