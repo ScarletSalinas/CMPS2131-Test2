@@ -1,5 +1,7 @@
 #include "hashtable.h"
 
+using namespace std;
+
 // Constructor
 HashTable::HashTable() : table(TABLE_SIZE, -1) {}
 
@@ -14,17 +16,17 @@ void HashTable::insert(int key) {
 
     if (table[index] == -1) {
         table[index] = key;
-        std::cout << "Inserted " << key << " at slot " << index << std::endl;
+        cout << "Inserted " << key << " at slot " << index << endl;
     } else {
-        std::cout << "Collision at slot " << index << " for key " << key << " (Not resolved!)" << std::endl;
+        cout << "Collision at slot " << index << " for key " << key << " (Not resolved!)\n";
     }
 }
 
 // Displays the current state of the hash table
 void HashTable::display() {
     for (int i = 0; i < TABLE_SIZE; i++) {
-        std::cout << "Slot " << i << ": ";
-        if (table[i] != -1) std::cout << table[i];
-        std::cout << std::endl;
+        cout << "Slot " << i << ": ";
+        if (table[i] != -1) cout << table[i];
+        cout << endl;
     }
 }

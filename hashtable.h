@@ -4,11 +4,13 @@
 #include <vector>
 #include <iostream>
 
+using namespace std;
+
 #define TABLE_SIZE 10 // Size of the hash table
 
 class HashTable {
 private:
-    std::vector<int> table; // Vector to store keys (-1 = empty slot)
+    vector<int> table; // Vector to store keys (-1 = empty slot)
 
 public:
     // Constructor
