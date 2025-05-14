@@ -42,7 +42,7 @@ void HashTable::insert(int key) {
 
     table[index] = key;
     size++;
-    cout << "Inserted " << key << " at slot " << index << endl;
+    cout << "Inserted " << key << " at slot " << index;
     if (i > 0) {
         cout << " (probed " << i << " slots)";
     }
