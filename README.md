@@ -48,8 +48,8 @@ Slot 10: 110
 ```
 
 # Link to video and slides
-[Watch demo here]() 
-[View Slides here]() 
+[Watch demo here](https://www.youtube.com/watch?v=65qX9cLW3wM) 
+View Slides here: [Division Method](https://www.canva.com/design/DAGndlHLJu0/z_qXnHIk7f-ak8mg6fv2SA/edit) & [Linear Probing](https://www.canva.com/design/DAGneOYe-rw/XrIh3YSjZVqFaWE0ydpLBg/edit ) 
 
 ## References
   - LLM: DeepSeek, for tutoring, learning necessary concepts, and for guidance when needed.
